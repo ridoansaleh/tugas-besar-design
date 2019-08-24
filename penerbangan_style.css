@@ -1,0 +1,582 @@
+		* {
+			margin : 0;
+			padding : 0;
+		}
+		
+		#konten {
+			width : 100%;
+			height : 100%;
+			padding : 0px;
+			background-image : url(plane.jpg);
+			background-size : 100% 100%;
+			color : white;
+		}
+		
+		#kotak {
+			background-color : black;
+			background : rgba(0,0,0,0.5);
+			width : 100%;
+			height : 210px;
+			padding : 0px;
+			position : relative;
+			top : 20px;	
+		}
+		
+		.home img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 20px;
+			top : 26px;
+		}
+		
+		.home img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.home_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			position : absolute;
+			left : 46px;
+		}
+		
+		.penerbangan img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			width : 250px;
+			height : 180px;
+			padding : 0px;			
+			position : absolute;
+			left : 280px;
+			top : 30px;
+		}
+		
+		.penerbangan img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.penerbangan_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			color : Orangered;
+			//padding : 10px;
+			position : absolute;
+			left : 304px;
+		}
+		
+		.bus img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 540px;
+			top : 30px;
+		}
+		
+		.bus img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.bus_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			color : white;
+			position : absolute;
+			left : 566px;
+		}
+		
+		.hotel img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 800px;
+			top : 30px;
+		}
+		
+		.hotel img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.hotel_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			position : absolute;
+			left : 825px;
+		}
+		
+		.tujuan img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 1060px;
+			top : 30px;
+		}
+		
+		.tujuan img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.destinasi_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			position : absolute;
+			left : 1087px;
+		}
+		
+		#kotak1 {
+			background-color : blue;
+			background : rgba(0,0,0,0.5);
+			width : 100%;
+			height : 20px;
+			padding : 0px;
+			font-family : Arial;
+			font-size : 13px;
+			position : relative;
+			top : 30px;	
+		}
+		
+		.kotakTiket {
+			background-color : black;
+			background : rgba(0,0,0,0.5);
+			border-left : 45px solid Lightgreen; 
+			width : 60%;
+			height : 300px;
+			padding : 0px;
+			position : absolute;
+			top : 290px;
+			left : 20px;
+		}
+		
+		.tujuanPenerbangan {
+			//background-color : white;
+			//background : rgba(0,0,0,0.5);
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 5px;
+			left : 16px;
+		}
+		
+		.waktuPenerbangan {
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : absolute;
+			top : 5px;
+			left : 290px;
+		}
+		
+		.cariTiket {
+			//background-color : white;
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : absolute;
+			top : 5px;
+			left : 600px;
+		}
+		
+		.kotaAsal {
+			//background-color : white;
+			//background : rgba(0,0,0,0.5);
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 30px;
+			left : 33px;
+		}
+		
+		.kotaTujuan {
+			//background-color : white;
+			//background : rgba(0,0,0,0.5);
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 70px;
+			left : 33px;
+		}
+		
+		.kAsal{
+			position:relative
+		}
+		
+		.kAsal input[type="text"]{
+			background: white;
+			height: auto;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding: 7px;
+			border: 2px;
+			border-style : solid;
+			border-color : Mediumseagreen;
+			float: left;
+			color: #5F5F5F;
+			width: 20%;
+			height: 34px;
+			float: none;
+			padding-right: 0px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			position : relative;
+			top : 40px;
+			left : 33px;
+		}
+		
+		.kTujuan{
+			position:relative
+		}
+		
+		.kTujuan input[type="text"]{
+			background: white;
+			height: auto;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding: 7px;
+			border: 2px;
+			border-style : solid;
+			border-color : Mediumseagreen;
+			float: left;
+			color: #5F5F5F;
+			width: 20%;
+			height: 34px;
+			float: none;
+			padding-right: 0px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			position : relative;
+			top : 80px;
+			left : 33px;
+		}
+		
+		.pembatas1 {
+			background-color : Lightgreen;
+			width : 4px;
+			height : 270px;
+			padding : 0px;
+			border-radius : 3px;
+			position : absolute;
+			top : 15px;
+			left : 240px;
+		}
+		
+		.tanggalBerangkat {
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : absolute;
+			top : 50px;
+			left : 310px;
+		}
+		
+		.kTanggal{
+			//position : absolute;
+		}
+		
+		.kTanggal input[type="date"]{
+			background: white;
+			height: auto;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding: 7px;
+			border: 2px;
+			border-style : solid;
+			border-color : Mediumseagreen;
+			float: left;
+			color: #5F5F5F;
+			width: 20%;
+			height: 34px;
+			float: none;
+			padding-right: 0px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			position : absolute;
+			top : 80px;
+			left : 310px;
+		}
+		
+		.paket {
+			//background-color : white;
+			width : 250px;
+			height : 34px;
+			padding : 0px;
+			position : relative;
+			top : 10px;
+			left : 310px;
+		}
+		
+		.pembatas2 {
+			background-color : Lightgreen;
+			width : 4px;
+			height : 270px;
+			padding : 0px;
+			border-radius : 3px;
+			position : absolute;
+			top : 15px;
+			left : 550px;
+		}
+		
+		.jumlahPenumpang {
+			//background-color : white;
+			width : 250px;
+			height : 20px;
+			padding : 0px;
+			position : absolute;
+			top : 50px;
+			left : 600px;
+		}
+		
+		.jPenumpang{
+			//position:relative
+		}
+		
+		.jPenumpang input[type="text"]{
+			background: white;
+			height: auto;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding: 7px;
+			border: 2px;
+			border-style : solid;
+			border-color : Mediumseagreen;
+			float: left;
+			color: #5F5F5F;
+			width: 20%;
+			height: 34px;
+			float: none;
+			padding-right: 0px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			position : absolute;
+			top : 80px;
+			left : 600px;
+		}
+		
+		.tombolCariTiket {
+			background-color : Orangered;
+			width : 100px;
+			height : 18px;
+			border-radius : 5px;
+			padding : 10px;
+			font-family : Arial;
+			font-size : 16px;
+			color : white;
+			position : absolute;
+			top : 135px;	
+			left : 644px;
+		}
+		
+		.kotakPromosi{
+			background : rgba(0,0,0,0.5);
+			border-right : 45px solid Lightgreen; 
+			width : 330px;
+			height : 300px;
+			padding : 0px;
+			position : absolute;
+			top : 290px;
+			left : 70%;
+		}
+		
+		.judulPromosi{
+			//background-color : blue;
+			width : 310px;
+			height : 20px;
+			padding : 0px;
+			color : white;
+			position : absolute;
+			top : 5px;
+			left : 20px;
+		}
+		
+		.isiPromo{
+			//background-color : blue;
+			width : 290px;
+			height : 250px;
+			padding : 0px;
+			color : white;
+			position : absolute;
+			top : 35px;
+			left : 40px;		
+		}
+		
+		.tombolPesan1{
+			background-color : Orangered;
+			width : 90px;
+			height : 20px;
+			padding : 0px;
+			border-radius : 10px;
+			color : white;
+			position : absolute;
+			top : 75px;
+			left : 180px;
+		}
+		
+		.tombolPesan2{
+			background-color : Orangered;
+			width : 90px;
+			height : 20px;
+			padding : 0px;
+			border-radius : 10px;
+			color : white;
+			position : absolute;
+			top : 120px;
+			left : 180px;
+		}
+		
+		#kotak2 {
+			background-color : black;
+			background : rgba(0,0,0,0.5);
+			width : 100%;
+			height : 40px;
+			padding : 0px;
+			position : relative;
+			top : 397px;	
+		}
+		
+		.fb {
+			background-color : white;
+			width : 20px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 365px;
+			left : 1190px;
+		}
+		
+		.TripAdvisor_f {
+			background-color : black;
+			background : rgba(0,0,0,0);
+			width : 120px;
+			height : 30px;
+			padding : 0px;
+			font-family : Arial;
+			font-size : 16px;
+			font-weight : bold;
+			color : white;
+			position : relative;
+			top : 345px;
+			left : 1218px;
+		}
+		
+		.twitter {
+			background-color : white;
+			width : 20px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 315px;
+			left : 1030px;
+		}
+		
+		.TripAdvisor_t {
+			background-color : black;
+			background : rgba(0,0,0,0);
+			width : 120px;
+			height : 30px;
+			padding : 0px;
+			font-family : Arial;
+			font-size : 16px;
+			font-weight : bold;
+			color : white;
+			position : relative;
+			top : 295px;
+			left : 1053px;
+		}

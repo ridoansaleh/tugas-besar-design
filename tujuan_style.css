@@ -1,0 +1,401 @@
+		* {
+			margin : 0;
+			padding : 0;
+		}
+		
+		#konten {
+			width : 100%;
+			height : 100%;
+			padding : 0px;
+			background-image : url(tujuan1.jpg);
+			background-size : 100% 100%;
+			color : white;
+		}
+		
+		#kotak {
+			background-color : black;
+			background : rgba(0,0,0,0.5);
+			width : 100%;
+			height : 210px;
+			padding : 0px;
+			position : relative;
+			top : 20px;	
+		}
+		
+		.home img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 20px;
+			top : 26px;
+		}
+		
+		.home img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.home_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			position : absolute;
+			left : 46px;
+		}
+		
+		.penerbangan img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;			
+			position : absolute;
+			left : 280px;
+			top : 30px;
+		}
+		
+		.penerbangan img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.penerbangan_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			position : absolute;
+			left : 304px;
+		}
+		
+		.bus img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			-o-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 540px;
+			top : 30px;
+		}
+		
+		.bus img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.bus_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			color : white;
+			position : absolute;
+			left : 566px;
+		}
+		
+		.hotel img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 800px;
+			top : 30px;
+		}
+		
+		.hotel img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.hotel_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			color : white;
+			//padding : 10px;
+			position : absolute;
+			left : 825px;
+		}
+		
+		.tujuan img{
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			-webkit-transition-duration: 0.5s;
+			-moz-transition-duration: 0.5s;
+			background-color : white;
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-radius : 30px;
+			width : 250px;
+			height : 180px;
+			padding : 0px;
+			position : absolute;
+			left : 1060px;
+			top : 30px;
+		}
+		
+		.tujuan img:hover {
+			-webkit-transform:scale(0.9);
+			-moz-transform:scale(0.9);
+			-o-transform:scale(0.9);
+		}
+		
+		.destinasi_txt {
+			//background-color : white;
+			font-family : Arial;
+			font-weight : bold;
+			width : 212px;
+			height : 20px;
+			//padding : 10px;
+			color : Orangered;
+			position : absolute;
+			left : 1087px;
+		}
+		
+		.kotak1 {
+			background-color : blue;
+			background : rgba(0,0,0,0.5);
+			width : 100%;
+			height : 20px;
+			padding : 0px;
+			font-family : Arial;
+			font-size : 14px;
+			position : relative;
+			top : 30px;	
+		}
+		
+		.searchform{
+			position:relative
+		}
+		
+		.searchform input[type="text"]{
+			background: white;
+			height: auto;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+			margin-bottom: 0;
+			padding: 7px;
+			border: 2px;
+			border-style : solid;
+			border-color : Mediumseagreen;
+			float: left;
+			color: #5F5F5F;
+			width: 30%;
+			height: 34px;
+			float: none;
+			padding-right: 0px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			position : relative;
+			top : 150px;
+			left : 330px;
+		}
+		
+		input[type="submit"]{
+			background: Orangered;
+			border: none;
+			padding: 7px;
+			border-radius : 5px;
+			color: #fff;
+			height: 34px;
+			width : 80px;
+			position: relative;
+			top : 150px;
+			left : 340px;
+			margin:0
+		}
+		
+		.lokasi1{
+			//background-image : url(paris.jpg);
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-bottom : 20px solid white;
+			width : 198px;
+			height : 140px;
+			padding : 0px;
+			position : absolute;
+			top : 270px;
+			left : 1120px;
+		}
+		
+		.nama1{
+			//background-color : blue;
+			width : 200px;
+			height : 20px;
+			padding : 0px;
+			color : black;
+			font-size : 14px;
+			font-weight : bold;
+			position : absolute;
+			top : 140px;
+			left : 0px;
+		}
+		
+		.no1{
+			background-color : Orangered;
+			width : 90px;
+			height : 15px;
+			padding : 0px;
+			color : white;
+			font-size : 14px;
+			font-weight : bold;
+			position : absolute;
+			top : 10px;
+			left : 0px;
+		}
+		
+		.lokasi2{
+			border : 4px;
+			border-style : solid;
+			border-color : white;
+			border-bottom : 20px solid white;
+			width : 198px;
+			height : 140px;
+			padding : 0px;
+			position : absolute;
+			top : 450px;
+			left : 1120px;
+		}
+		
+		.nama2{
+			//background-color : blue;
+			width : 200px;
+			height : 20px;
+			padding : 0px;
+			color : black;
+			font-size : 14px;
+			font-weight : bold;
+			position : absolute;
+			top : 270px;
+			left : 0px;
+		}
+		
+		.no2{
+			background-color : Orangered;
+			width : 90px;
+			height : 15px;
+			padding : 0px;
+			color : white;
+			font-size : 14px;
+			font-weight : bold;
+			position : absolute;
+			top : 10px;
+			left : 0px;
+		}
+		
+		#kotak2 {
+			background-color : black;
+			background : rgba(0,0,0,0.5);
+			width : 100%;
+			height : 40px;
+			padding : 0px;
+			position : relative;
+			top : 363px;	
+		}
+		
+		.fb {
+			background-color : white;
+			width : 20px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 330px;
+			left : 1190px;
+		}
+		
+		.TripAdvisor_f {
+			background-color : black;
+			background : rgba(0,0,0,0);
+			width : 120px;
+			height : 30px;
+			padding : 0px;
+			font-family : Arial;
+			font-size : 14px;
+			font-weight : bold;
+			color : white;
+			position : relative;
+			top : 310px;
+			left : 1218px;
+		}
+		
+		.twitter {
+			background-color : white;
+			width : 20px;
+			height : 20px;
+			padding : 0px;
+			position : relative;
+			top : 280px;
+			left : 1030px;
+		}
+		
+		.TripAdvisor_t {
+			background-color : black;
+			background : rgba(0,0,0,0);
+			width : 120px;
+			height : 30px;
+			padding : 0px;
+			font-family : Arial;
+			font-size : 14px;
+			font-weight : bold;
+			color : white;
+			position : relative;
+			top : 260px;
+			left : 1053px;
+		}
